@@ -1,8 +1,10 @@
 class Circle{
+  //The position of our circle
   public PVector pos;
+  //The radius of our circle
+  float radius;
   color stroke;
   color fill;
-  float radius;
   
   Circle(PVector pos_,float radius_,color stroke_,color fill_)
   {
@@ -11,7 +13,6 @@ class Circle{
     stroke=stroke_;
     fill=fill_;
   }
-  
   void display()
   {
     stroke(stroke);
